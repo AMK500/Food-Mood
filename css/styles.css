@@ -1,0 +1,549 @@
+
+/* #region محمد عبدالرحمن */
+
+/* #region Header */
+
+header{
+  padding:44px 0px;
+}
+header .row {
+  overflow:hidden;
+}
+
+header .row .logo {
+  float:left;
+}
+
+header .row nav {
+  float:right;
+  margin-top:4px;
+}
+
+header .row nav ul {
+  overflow:hidden;
+}
+
+header .row nav ul li {
+  float:left;
+  margin-left:40px;
+}
+
+header .row nav ul li a {
+  color:#000000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* #endregion Header */
+
+
+/* #region Hero */
+
+.hero-section{
+  background-image:url("../img/hero/background.png");
+  background-position:top right;
+  background-repeat:no-repeat;
+}
+
+.hero-section .div-item {
+  padding:100px 0px;
+  width:592px;
+}
+
+.hero-section .div-item h1{
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-section .div-item p{
+  color: #4D4D4D;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding:32px 0px;
+}
+
+.hero-section .div-item a{
+  padding:16px 24px;
+  border-radius:4px;
+  border:1px solid #424B5A;
+  display:inline-block;
+  text-align:center;
+  background: #FF9D02;
+  font-size:24px;
+  font-style:normal;
+  font-weight:400px;
+  line-height:100%;
+  min-width:283px;
+  color:#FFFFFF;
+}
+
+/* #endregion Hero */
+
+
+/* #endregion محمد عبدالرحمن */
+
+
+
+/* #region عبدالرحمن محمود */
+
+
+.download-p {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  background: #FF9D02;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  border: 1.5px solid #000;
+  transition: all 0.3s;
+}
+
+.download-p:hover {
+  background: transparent;
+  color: #FF9D02;
+  border-color: #FF9D02;
+}
+
+.download-p svg {
+  transition: all 0.3s;
+}
+
+.download-p:hover svg {
+  fill: #FF9D02;
+}
+
+
+/* #region About Us */
+
+.about {
+  padding: 140px 0;
+}
+
+.about .col-6 {
+  width: calc(50% - 63.5px);
+}
+
+.about .row {
+  overflow: hidden;
+}
+
+.about .col1 {
+  float: left;
+}
+
+.about .col2 {
+  float: right;
+}
+
+.about .image img {
+  width: 100%;
+}
+
+.about .item-text {
+  margin: 13px 0;
+}
+
+.about .item-text h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about .item-text h2 span {
+  color: #FF9D02;
+  margin-left: 16px;
+}
+
+.about .item-text p {
+  margin: 16px 0;
+  color: #717171;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about .item-text a {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #FF9D02;
+  background: #FFF;
+  text-align: center;
+  color: #FF9D02;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  padding: 16px 24px;
+  transition: all 0.3s;
+}
+
+.about .item-text a:hover {
+  color: #FFF;
+  background-color: #FF9D02;
+}
+
+/* #endregion About Us */
+
+
+/* #region Blogs Food */
+
+.blogs {
+  padding: 64px 0;
+}
+
+.blogs h2 {
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.blogs h2 span {
+  color: #FF9D02;
+  margin-left: 16px;
+}
+
+.blogs .row {
+  display: inline-block;
+}
+
+.blogs .col-4 {
+  width: calc(33.33333333% - 16px);
+  float: left;
+  padding: 0;
+}
+
+.blogs .col-4 .item {
+  border-radius: 16px;
+  background: #FFF;
+  overflow: hidden;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.20);
+  transition: all 0.4s;
+}
+
+.blogs .m-c {
+  margin: 0 24px;
+}
+
+.blogs .col-4 .item:hover {
+  transform: translateY(80px);
+}
+
+.blogs .col-4 .item img {
+  width: 100%;
+}
+
+.blogs .col-4 .item .text {
+  padding: 24px;
+}
+
+.blogs .col-4 .item h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogs .col-4 .item h5 {
+  color: #57595B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+.blogs .col-4 .item a {
+  color: #FFF;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  border-radius: 4px;
+  border: 1px solid #424B5A;
+  background: #FF9D02;
+  width: 132px;
+  height: 40px;
+  padding: 11px;
+  transition: all 0.3s;
+}
+
+.blogs .col-4 .item a:hover {
+  border-color: #FF9D02;
+  background: transparent;
+  color: #FF9D02;
+}
+
+/* #endregion Blogs Food */
+
+
+/* #endregion عبدالرحمن محمود */
+
+
+
+/* #region محمود مجدي */
+
+
+/* #region Why choose our food? */
+
+
+.our-food {
+  padding: 128px 0px 64px 0px;
+}
+
+.our-food .contend-h2 h2{
+  text-align: center;
+  font-family: Merienda;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.our-food .contend-h2 span{
+  color: #FF9D02;
+}
+
+.our-food .row {
+  
+  display: inline-flex;
+  width: 100%;
+}
+
+.our-food .col-4{
+  float: left;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 284px;
+}
+
+.our-food .m-l {
+  margin-left: auto;
+}
+
+#sss {
+  margin: 0 24px ;
+}
+
+.our-food .m-r {
+  margin-right: auto;
+}
+
+.our-food .items{
+  padding: 24px;
+  width: 284px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  height: 335.2px;
+}
+
+.our-food .items:hover   {
+  background: #FFF;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.20);
+}
+
+.our-food .image {
+  width: 88px;
+  height: 88px;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  padding-top: 20px;
+  border: 2px solid transparent;
+}
+
+.our-food .m-r .image  {
+  padding-top: 28px;
+}
+
+.our-food .items:hover .image {
+  border-color: #FF9D02;
+}
+
+
+
+.our-food .content-h3-p h3 {
+  margin-bottom: 16px;
+}
+
+/* #endregion Why choose our food? */
+
+
+/* #endregion محمود مجدي */
+
+
+
+/* #region محمد سيد */
+
+
+/* #region Customers say */
+
+.say-5 {
+  padding: 128px 0;
+}
+
+.say-5 h3{
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.say-5 .row {
+  text-align: center;
+}
+
+.say-5 h3 span {
+  color: #FF9D02;
+}
+
+.say-5 .col3 {
+  text-align: center;
+  display:inline-block;
+}
+
+.say-5 .m {
+  margin: 0 24px;
+}
+
+.say-5 .col3 .text {
+  padding: 24px;
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.20);
+}
+
+.say-5 .col3 .text:hover {
+  background: #FF9D02;
+}
+
+.say-5 .col3 .text h4{
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.say-5 .col3 .text p{
+  color: #202020;
+  text-align: center;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.say-5 .col3 .text:hover h4 {
+  color: #FFF;
+}
+
+/* #endregion Customers say */
+
+
+/* #endregion محمد سيد */
+
+
+
+/* #region محمد عصام */
+
+
+/* #region Footer */
+
+footer .col2{
+  width: 50%;
+  padding: 32px 0;
+  float: left;
+}
+footer .m{
+  width: 534px;
+  float: right;
+}
+footer .logo{
+  overflow: hidden;
+}
+footer li{
+  float: left;
+  margin-right: 16px;
+  
+}
+footer ul{
+  float: left;
+  margin-left: 24px;
+  margin-top: 12px;
+}
+footer .log{
+  float:left;
+}
+footer .para{
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 24px;
+}
+
+.grob-text h3{
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.grob-text h4{
+  color: #484848;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px ;
+}
+form input{
+  border-radius: 2px;
+  border: 1px solid #FF9D02;
+  height: 40px;
+  padding: 10px 24px;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--Gray, #424B5A);
+  width: 378px;
+  float: left;
+  margin-top: 16px;
+}
+
+form button{
+  border-radius: 4px;
+  border: 1px solid #FF9D02;
+  background: #FF9D02;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  padding: 12px 24px;
+  float: left;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+/* #endregion Footer */
+
+
+/* #endregion محمد عصام */
